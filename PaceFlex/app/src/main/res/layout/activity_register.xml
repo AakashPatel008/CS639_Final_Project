@@ -11,7 +11,6 @@
     tools:context=".MainActivity">
 
     <ScrollView
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp">
@@ -25,8 +24,6 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-
-
                 android:layout_margin="20dp"
                 android:src="@drawable/logo" />
 
@@ -35,50 +32,24 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:fontFamily="@font/lobster"
-                android:text="Log In"
+                android:text="Registration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/info_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/info_register"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-            <EditText
-                android:id="@+id/email_login"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:hint="your@pace.edu" />
-
-            <EditText
-                android:id="@+id/password_login"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:hint="Password" />
-
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/back_signin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Login"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:layout_marginTop="20dp"
+                android:text="@string/back_signin" />
 
-            <TextView
-                android:id="@+id/forget_pass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="6dp"
-                android:text="Forget Password??" />
-
-            <TextView
-                android:id="@+id/signup"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="6dp"
-                android:text="Sign up" />
 
         </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>

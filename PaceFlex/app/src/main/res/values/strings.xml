@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PaceFlex</string>
+    <string name="info_register">This application is only accessible to <a href="https://www.pace.edu/">Pace University</a> Students/Faculties/Employees. If you are newly applied student please contact
+        <a href="https://www.pace.edu/its/account-access-and-help/its-help-desk">ITS HELP DESK</a> </string>
+    <string name="back_signin">Back to Signin</string>
+    <string name="info_reset">Please contact the <a href="https://www.pace.edu/its/account-access-and-help/its-help-desk">ITS HELP DESK</a> at <a href="tel:+19147733333">(914) 773-3333</a></string>
 </resources>
