@@ -4,4 +4,8 @@
         <a href="https://www.pace.edu/its/account-access-and-help/its-help-desk">ITS HELP DESK</a> </string>
     <string name="back_signin">Back to Signin</string>
     <string name="info_reset">Please contact the <a href="https://www.pace.edu/its/account-access-and-help/its-help-desk">ITS HELP DESK</a> at <a href="tel:+19147733333">(914) 773-3333</a></string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

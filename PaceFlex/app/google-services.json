@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879964422864",
+    "project_id": "paceflex-b2c8d",
+    "storage_bucket": "paceflex-b2c8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879964422864:android:6d5d5561f9a81dc553d4d5",
+        "android_client_info": {
+          "package_name": "com.cs374.paceflex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879964422864-ibgk9m8h0brk327e3bt017753h41aa12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs374.paceflex",
+            "certificate_hash": "f674ff754e59445a00147e430b14c2107ae7ae0a"
+          }
+        },
+        {
+          "client_id": "879964422864-sqr7k1bd8cjr29r21bhfvn78vjmoq93d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCblgQ31u1o9PX5QGBzLviFkEoZOzpsC54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879964422864-sqr7k1bd8cjr29r21bhfvn78vjmoq93d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
