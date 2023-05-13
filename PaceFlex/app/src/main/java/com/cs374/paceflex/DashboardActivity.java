@@ -1,7 +1,6 @@
 package com.cs374.paceflex;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -13,7 +12,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
-import android.widget.Switch;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
@@ -56,7 +54,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
                         setFragment(dashboardFragment);
                         bottomNavigationView.setItemBackgroundResource(R.color.teal_700);
                         return true;
-                    case R.id.income:
+                    case R.id.income_set_result:
                         setFragment(incomeFragment);
                         bottomNavigationView.setItemBackgroundResource(R.color.green_700);
                         return true;
@@ -92,10 +90,13 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         Fragment fragment=null;
         switch (itemId){
             case R.id.dashboard:
+                fragment=new DashboardFragment();
                 break;
-            case R.id.income:
+            case R.id.income_set_result:
+                fragment=new IncomeFragment();
                 break;
             case R.id.expense:
+                fragment=new ExpenseFragment();
                 break;
         }
         if (fragment!=null){
