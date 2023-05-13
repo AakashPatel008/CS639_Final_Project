@@ -52,7 +52,7 @@
                 android:layout_margin="10dp"
                 android:hint="Password"
                 android:inputType="none"
-                />
+                android:password="false" />
 
             <Button
                 android:id="@+id/btn_login"

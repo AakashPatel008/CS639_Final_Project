@@ -105,19 +105,19 @@
             android:layout_gravity="bottom|end"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="160dp">
-            
+
             <TextView
+                android:id="@+id/expense_ft_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Expense"
-                android:id="@+id/expense_ft_text"
-                android:padding="5dp"
-                android:textColor="@color/white"
-                android:background="@color/md_theme_dark_primary"
                 android:layout_gravity="center"
                 android:layout_marginRight="5dp"
-                android:visibility="invisible"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+                android:background="@color/md_theme_dark_onSurface"
+                android:padding="5dp"
+                android:text="Expense"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black"
+                android:visibility="invisible" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/expense_Ft_btn"
@@ -138,18 +138,19 @@
             android:layout_gravity="bottom|end"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="90dp">
+
             <TextView
+                android:id="@+id/income_ft_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Inccome"
-                android:id="@+id/income_ft_text"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:background="@color/md_theme_light_errorContainer"
                 android:layout_gravity="center"
                 android:layout_marginRight="6dp"
-                android:visibility="invisible"
+                android:background="@color/md_theme_dark_onSurface"
+                android:padding="5dp"
+                android:text="Inccome"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black"
+                android:visibility="invisible"
 
                 />
 
@@ -159,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"
-                android:backgroundTint="#FA8787"
+                android:backgroundTint="#4CAF50"
                 android:elevation="6dp"
                 android:src="@drawable/income"
                 android:visibility="invisible"

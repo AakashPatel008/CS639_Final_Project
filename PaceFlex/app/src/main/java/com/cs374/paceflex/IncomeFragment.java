@@ -76,11 +76,12 @@ public class IncomeFragment extends Fragment {
         String uid = muser.getUid();
         mIncomeDatabase = FirebaseDatabase.getInstance().getReference().child("IncomeData").child(uid);
         recyclerView = myview.findViewById(R.id.recycler_id_income);
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
-        linearLayoutManager.setReverseLayout(true);
-        linearLayoutManager.setStackFromEnd(true);
+        LinearLayoutManager linearLayout = new LinearLayoutManager(getActivity());
+        linearLayout.setReverseLayout(true);
+        linearLayout.setStackFromEnd(true);
+
         recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(linearLayoutManager);
+        recyclerView.setLayoutManager(linearLayout);
 
         return myview;
     }
