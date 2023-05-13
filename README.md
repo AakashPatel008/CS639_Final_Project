@@ -15,3 +15,6 @@ Data from Everfi shows that over half of college students are unable to manage t
 
 ## Idea proposal
 <a href="https://docs.google.com/document/d/1xZEOjYTmsf_xQQY8-Do1A9e84M3zAg7AmocohLPcV6Y/edit?usp=sharing)">PaceFlex Idea proposal </a>
+
+## Presentation
+<a href="https://docs.google.com/presentation/d/1f0iz4ZoyEbOukXI-15UzDup4qpIc5PHTUez26sWeGxU/edit?usp=sharing"> PaceFlex Presentation </a>
